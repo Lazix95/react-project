@@ -1,0 +1,49 @@
+// Classic Nav Bar styles
+.NavBar {
+  flex-grow: 1;
+  text-align: left;
+
+  .header {
+    background-color: #414141;
+  }
+
+  .menu {
+    flex-grow: 1
+  }
+
+  .NavLink {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 6px 12px;
+    font-size: 0.875rem;
+    min-width: 50px;
+    box-sizing: border-box;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+  }
+}
+
+
+// Drawer styles
+.Drawer {
+  width: 250px;
+}
+
+.fullList {
+  width: auto;
+}
+
+.menuButton {
+  margin-right: 20px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+.ExpansionPanel {
+  width: 100%;
+  .heading{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    p {
+      margin-top: 5px;
+    }
+  }
+}
+

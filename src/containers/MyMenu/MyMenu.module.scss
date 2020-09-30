@@ -1,0 +1,25 @@
+.MyMenu {
+  text-align: center;
+  .addButton {
+    margin-bottom: 30px;
+  }
+
+  .categories {
+    max-width: 1000px;
+    margin: auto;
+  }
+  .menuIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+}
+
+.AddNewCategory {
+  text-align: center;
+  margin: 30px;
+  .textField {
+    margin-bottom: 30px;
+  }
+}
+

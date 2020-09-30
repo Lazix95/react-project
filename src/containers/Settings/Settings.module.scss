@@ -1,0 +1,135 @@
+.Profile {
+   max-width: 320px;
+   padding-bottom: 100px;
+   margin: auto;
+
+   .textField {
+      margin-left: 10px;
+      margin-right: 10px;
+      width: 300px;
+   }
+
+   .title {
+      margin-bottom: 5px
+   }
+
+   .button {
+      float: right;
+      margin-right: 10px;
+      margin-top: 20px;
+   }
+}
+
+.QRCodes {
+   .list {
+      width: 100%;
+      max-width: 550px;
+      // background-color: ;
+      border: 2px solid black;
+      max-height: 490px;
+      margin: auto;
+      padding-top: 0;
+   }
+
+   .upgradePlan {
+      flex-flow: row wrap;
+      display: flex;
+      width: 553px;
+      margin: auto;
+      justify-content: space-between;
+   }
+
+   .upgradeButton {
+      height: 40px;
+      margin-top: 10px;
+   }
+}
+
+
+.listItem {
+   border-bottom: 1px solid black;
+
+   &:last-child {
+      border-bottom: none;
+   }
+
+   .listActions {
+      float: right;
+      width: 80px;
+      text-align: right;
+   }
+
+   .listButton {
+      width: 80px;
+      margin-bottom: 10px;
+
+      &:last-child {
+         margin-bottom: 0
+      }
+   }
+
+   .qrCode {
+      width: 80px;
+      height: 80px;
+      border-radius: 0;
+
+      .qrImage {
+         width: 100%;
+      }
+   }
+
+   .listItemBody {
+      flex-flow: row wrap;
+      justify-content: space-between;
+      width: 100%;
+
+      .listTitle {
+         display: inline-block;
+         margin-top: 0;
+         margin-right: 25px;
+      }
+
+      .listInfo {
+         float: left;
+         margin-left: 20px
+      }
+
+      .textField {
+         margin-left: 8px;
+         margin-right: 8px;
+         margin-top: 0;
+      }
+   }
+}
+
+.canvas {
+   width: 100% !important;
+   height: 100% !important;
+}
+
+.pricingProfilePopUp {
+   position: relative;
+   width: 500px;
+   height: 450px;
+   text-align: center;
+
+   .formControl {
+      text-align: center;
+      margin: auto;
+
+      .radioButton {
+         padding-left: 60px
+      }
+   }
+
+   .button {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+   }
+}
+
+
+
+
